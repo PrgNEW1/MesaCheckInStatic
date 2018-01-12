@@ -1,0 +1,23 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000e\u0000s\u0000a\u0000C\u0000h\u0000e\u0000c\u0000k\u0000I\u0000n\u0000S\u0000t\u0000a\u0000t\u0000i\u0000c\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caubenondo/MesaCheckInStatic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caubenondo/MesaCheckInStatic/issues"
+  },
+  "homepage": "https://github.com/caubenondo/MesaCheckInStatic#readme"
+}

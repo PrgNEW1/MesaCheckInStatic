@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title of the document</title>
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Your custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Used as an example only to position the footer at the end of the page.
+    You can delete these styles or move it to your custom css file -->
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="indigo">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo">Mesa College</a>
+                    <ul class="right hide-on-med-and-down" id="mobile-menu">
+                        <li>
+                            <a href="#">item1</a>
+                        </li>
+                        <li>
+                            <a href="#">item2</a>
+                        </li>
+                        <li>
+                            <a href="#">item3</a>
+                        </li>
+                        <li>
+                            <a href="#">item4</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="indigo">
+        <!-- Your content here -->
+        <div class="container">
+            <div class="row">
+                <div class="carousel carousel-slider center" data-indicators="true">
+                    <div class="carousel-item white-text" style="">
+                        <img src="./src/graduation.png" alt="graduation picture" class="welcome-img">
+                        <h2>Welcome, students!</h2>
+                        <p class="center" style="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minus praesentium ex delectus aliquam. Assumenda veniam
+                            et tempore totam, unde fugiat beatae nisi nam exercitationem, quam laudantium magnam. Doloribus,
+                            praesentium.
+                        </p>
+
+                    </div>
+                    <div class="carousel-item white-text" href="#two!">
+                        <h2>Second Panel</h2>
+                        <p class="white-text">This is your second panel</p>
+                    </div>
+                    <div class="carousel-item white-text" href="#three!">
+                        <h2>Third Panel</h2>
+                        <p class="white-text">This is your third panel</p>
+                    </div>
+                    <div class="carousel-item white-text" href="#four!">
+                        <h2>Fourth Panel</h2>
+                        <p class="white-text">This is your fourth panel</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="center-align">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Check in
+                        <i class="material-icons right">assignment_ind</i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer class="page-footer indigo">
+
+        <div class="footer-copyright">
+            <div class="container">
+                © San Diego Mesa College
+                <a class="grey-text text-lighten-4 right" href="">Admin</a>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <!-- Materialize JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $("document").ready(function () {
+            
+
+            $('.carousel.carousel-slider').carousel({
+                
+            });
+        });
+    </script>
+</body>
+
+</html>
